@@ -7,9 +7,13 @@
 </template>
 
 <script>
+import AppLayout from '@Layouts/AppLayout.vue';
+
+
 export default {
   props: {
     message: String,
   },
+  layout: AppLayout , // Setting AppLayout as the layout for this page
 };
 </script>
