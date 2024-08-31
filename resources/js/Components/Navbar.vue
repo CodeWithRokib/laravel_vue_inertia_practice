@@ -11,7 +11,7 @@
             <inertia-link class="nav-link active" href="/">Home</inertia-link>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="/about">About</inertia-link>
+            <inertia-link class="nav-link" href="">About</inertia-link>
           </li>
           <li class="nav-item">
             <inertia-link class="nav-link" href="/contact">Contact</inertia-link>
