@@ -25,8 +25,10 @@
 
 <script>
 import { Inertia } from '@inertiajs/inertia';
+import AppLayout from '@Layouts/AppLayout.vue';
 
 export default {
+  layout: AppLayout , // Setting AppLayout as the layout for this page
     data() {
         return {
             form: {

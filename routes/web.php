@@ -6,6 +6,7 @@ use Inertia\Inertia;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\ContactController;
 
 
 
@@ -33,3 +34,5 @@ Route::post('/register', [AuthController::class, 'register']);
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::resource('questions', QuestionController::class);
+Route::resource('contacts', ContactController::class);
+

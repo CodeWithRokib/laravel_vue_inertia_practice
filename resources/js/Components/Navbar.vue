@@ -8,13 +8,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <inertia-link class="nav-link active" href="/">Home</inertia-link>
+            <a class="nav-link" href="/">Home</a>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="">About</inertia-link>
+            <a class="nav-link" href="/questions/create" >About</a>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="/contact">Contact</inertia-link>
+            <a class="nav-link" href="/contact">Contact</a>
           </li>
         </ul>
       </div>
