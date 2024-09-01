@@ -4,19 +4,19 @@
         <form @submit.prevent="submit">
             <div class="form-group">
                 <label>Name</label>
-                <input v-model="form.name" type="text" class="form-control">
+                <input v-model="form.name" type="text" id="name" class="form-control">
             </div>
             <div class="form-group">
                 <label>Email</label>
-                <input v-model="form.email" type="email" class="form-control">
+                <input v-model="form.email" id="email" type="email" class="form-control">
             </div>
             <div class="form-group">
                 <label>Subject</label>
-                <input v-model="form.subject" type="text" class="form-control">
+                <input v-model="form.subject" id="subject" type="text" class="form-control">
             </div>
             <div class="form-group">
                 <label>Question</label>
-                <textarea v-model="form.question" class="form-control"></textarea>
+                <textarea v-model="form.question" id="question" class="form-control"></textarea>
             </div>
             <button type="submit" class="btn btn-success">Create</button>
         </form>
